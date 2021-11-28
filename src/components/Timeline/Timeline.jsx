@@ -22,8 +22,8 @@ const Timeline = () => {
                     date="2011 - present"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 >
-                    <h3 className="vertical-timeline-element-title">Session 1</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Git & GitHub</h4>
+                    <h3>Session 1</h3>
+                    <h4>Git & GitHub</h4>
                     <p>
                         Creative Direction, User Experience, Visual Design
                     </p>
@@ -35,8 +35,8 @@ const Timeline = () => {
                     date="2010 - 2011"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 >
-                    <h3 className="vertical-timeline-element-title">Session 2</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Introduction</h4>
+                    <h3>Session 2</h3>
+                    <h4>Introduction</h4>
                     <p>
                         Creative Direction, User Experience, Visual Design
                     </p>
@@ -50,8 +50,8 @@ const Timeline = () => {
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 
                 >
-                    <h3 className="vertical-timeline-element-title">Session 3</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Web and App</h4>
+                    <h3>Session 3</h3>
+                    <h4>Web and App</h4>
                     <p>
                         Strategy, Social Media
                     </p>
@@ -63,8 +63,8 @@ const Timeline = () => {
                     contentArrowStyle={{ borderRight: '7px solid  rgb(80, 10, 43)' }}
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                 >
-                    <h3 className="vertical-timeline-element-title">Session 4</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+                    <h3>Session 4</h3>
+                    <h4>Certification</h4>
                     <p>
                         Creative Direction, User Experience, Visual Design
                     </p>
@@ -76,8 +76,8 @@ const Timeline = () => {
                     date="2002 - 2006"
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                 >
-                    <h3 className="vertical-timeline-element-title">Submission</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Deadline dates</h4>
+                    <h3>Submission</h3>
+                    <h4>Deadline dates</h4>
                     <p>
                         Creative Direction, Visual Design
                     </p>

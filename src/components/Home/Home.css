@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap');
+
+.home-title{
+    margin-top: 20px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 150px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.home-nav{
+    margin-bottom: 100px;
+}
+
+.home-nav-discord, .home-nav-devfolio{
+    font-size: 21px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    color: #d80000;
+    margin: 10px;
+    padding: 10px 30px;
+}
+
+.home-nav-discord:hover, .home-nav-devfolio:hover{
+    background-color: transparent;
+    border: 2px solid #d80000;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+.home-nav-discord:focus, .home-nav-devfolio:focus, .home-nav-discord:focus-visible, .home-nav-devfolio:focus-visible{
+    background-color: transparent;
+    border: 2px solid #d80000;
+    border-radius: 30px;
+    color: #ffffff;
+    outline: none;
+    box-shadow: none;
+}

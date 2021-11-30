@@ -7,7 +7,14 @@ import teams from "./teams.jpg"
 const Teams = () => {
     return (
         <div>
-            {/* <h1>Teams</h1> */}
+            <div class="container py-3">
+
+                <div class="row text-center text-black">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="display-4">TEAMS</h1>
+                    </div>
+                </div>
+            </div>
             <Carousel>
                 <Carousel.Item>
                     <img

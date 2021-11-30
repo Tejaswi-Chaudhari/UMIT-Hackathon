@@ -17,16 +17,8 @@ const Footer = () => {
                   <h1 className="main-heading fw-bold">
                     Connect With Our <br /> Arcturus team. 
                   </h1>
-                  <p className="main-hero-para">
-                    Whether you have queries or for knowing more about our Hackathon, we will contact you based on your email. No other information collected. 
-                  </p>
-                  <figure>
-                    <img
-                      src="./images/hero1.jpg"
-                      alt="contatUsImg"
-                      className="img-fluid"
-                    />
-                  </figure>
+                  
+                  
                 </div>
 
                 {/* right side contact form  */}
@@ -59,25 +51,12 @@ const Footer = () => {
 
                     <div className="row">
                     </div>
-                    <div class="form-check form-checkbox-style">
-                      <input
-                        class="form-check-input"
-                        type="checkbox"
-                        value=""
-                        id="flexCheckChecked"
-                      />
-                      <label
-                        class="form-check-label"
-                        className="main-hero-para">
-                        I agree that the UMIT council'team may contact me at the
-                        email address or phone number above
-                      </label>
-                    </div>
+                    
 
                     <button
     
                       type="submit"
-                      className="btn btn-style w-100" >
+                      className="btn btn-style w-100">
                       Submit
                     </button>
                   </form>
@@ -86,9 +65,9 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div class='footer1'>
           
-           <p>2022 All rights reserved. Hackathon conducted by UMIT Councils team, Mumbai. Site developed by- <a href="#">Developer's team</a></p>
+           <p>2022 All rights reserved. Hackathon conducted by UMIT Councils team, Mumbai.<div><br></br></div> Site developed by- <a href="#">Developer's team</a></p>
         </div>
       </section>
       

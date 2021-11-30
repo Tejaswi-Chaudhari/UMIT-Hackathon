@@ -15,7 +15,7 @@ const Timeline = () => {
                 </div>
             </div>
 
-            <VerticalTimeline lineColor={"black"}>
+            <VerticalTimeline>
                 <VerticalTimelineElement
                     contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}

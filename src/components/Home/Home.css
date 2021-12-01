@@ -8,6 +8,10 @@
     color: #ffffff;
 }
 
+.home-countdown{
+    pointer-events: none;
+}
+
 .home-nav{
     margin-bottom: 100px;
 }

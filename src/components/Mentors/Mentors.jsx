@@ -2,9 +2,10 @@ import React from 'react'
 
 const Mentors = () => {
     return (
-        <div>
-            <h1>This is mentors</h1>
-        </div>
+        <div class="container-fluid">
+			<h2>MENTORS</h2>  
+</div>
+	    
     )
 }
 

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300'); 
+.link {
+    margin-right: 20px;
+}
+.link:hover {
+    color: #d80000 !important;
+}
+.main {
+    background-color: white; 
+    padding-top: 1rem;
+    font-family: "Roboto";
+}

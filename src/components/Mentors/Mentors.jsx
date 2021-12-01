@@ -15,19 +15,19 @@ const Mentors = () => {
 
       <!-- Wrapper for slides -->
         	<div class="carousel-inner" >
-         		 <div class="item active">
+         		 <div className="item active">
             			<img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" alt="MENTOR 1" width="460" height="345";>
          		 </div>
 
-         		 <div class="item">
+         		 <div className="item">
             			<img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" alt="MENTOR 2" width="460" height="345">
           		 </div>
 
-          		<div class="item">
+          		<div className="item">
             			<img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" alt="MENTOR 3" width="460" height="345">
           		</div>
     
-          		<div class="item">
+          		<div className="item">
             			<img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" alt="MENTOR 4" width="460" height="345">
           		</div>
 

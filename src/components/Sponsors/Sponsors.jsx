@@ -8,7 +8,7 @@ const Sponsors = () => {
 <div class="row">
   <div class="col-md-3">
     <div class="thumbnail">
-        <img: src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 1" {style{width:50%"}} />
+        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 1" width='50%' />
         <div class="caption">
           <p align="center">Sponsor 1</p>
         </div>
@@ -18,7 +18,7 @@ const Sponsors = () => {
 
   <div class="col-md-3">
     <div class="thumbnail">
-        <img: src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 2" {style{width:50%"}} />
+        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 2" width='50%' />
         <div class="caption">
           <p align="center">Sponsor 2</p>
         </div>
@@ -28,7 +28,7 @@ const Sponsors = () => {
 
   <div class="col-md-3">
     <div class="thumbnail">
-        <img: src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 3" style={{width:'50%'}} />
+        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 3" width='50%' />
         <div class="caption">
           <p align="center">Sponsor 3</p>
         </div>
@@ -38,7 +38,7 @@ const Sponsors = () => {
 
   <div class="col-md-3">
     <div class="thumbnail">
-        <img: src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 4" style={{width:'50%'}} />
+        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 4" width='50%' />
         <div class="caption">
           <p align="center">Sponsor 4</p>
         </div>
@@ -48,7 +48,7 @@ const Sponsors = () => {
 
   <div class="col-md-3">
     <div class="thumbnail">
-        <img: src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 5" style={{width:'50%'}} />
+        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 5" width='50%' />
         <div class="caption">
           <p align="center">Sponsor 5</p>
         </div>
@@ -58,7 +58,7 @@ const Sponsors = () => {
 
   <div class="col-md-3">
     <div class="thumbnail">
-        <img: src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 6" style={{width:'50%'}} />
+        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 6" width='50%' />
         <div class="caption">
           <p align="center">Sponsor 6</p>
         </div>
@@ -68,7 +68,7 @@ const Sponsors = () => {
 
   <div class="col-md-3">
     <div class="thumbnail">
-        <img: src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 7" style={{width:'50%'}}/>
+        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 7" width='50%'/>
         <div class="caption">
          <p align="center">Sponsor 7</p>
         </div>
@@ -78,7 +78,7 @@ const Sponsors = () => {
 
   <div class="col-md-3">
     <div class="thumbnail">
-        <img: src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 8" style={{width:'50%'}} />
+        <img src="https://bootstrapious.com/i/snippets/sn-team/teacher-4.jpg" class="img-circle" alt="Sponsor 8" width='50%' />
         <div class="caption">
           <p align="center">Sponsor 8</p>
         </div>

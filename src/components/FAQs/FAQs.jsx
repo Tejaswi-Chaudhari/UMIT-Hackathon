@@ -1,11 +1,20 @@
-import React from 'react'
+import React, {useState} from 'react';
+import {questions} from './api';
+import './FAQs.css';
+import MyAccordion from './MyAccordion';
 
-const FAQs = () => {
-    return (
-        <div>
-            <h1>This is FAQs.</h1>
-        </div>
+const FAQ=() =>{
+    const [faqs, setfaqs] = useState(questions);
+
+   return (
+        <>
+            {
+                faqs.map((curElem)=> {
+                    const {id}=curElem;
+                    return <MyAccordion key={id} {...curElem}/>
+                })
+             }
+        </>
     )
 }
-
-export default FAQs
+export default FAQs;

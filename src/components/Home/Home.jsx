@@ -2,18 +2,19 @@ import React from 'react'
 import Button from 'react-bootstrap/Button'
 import { Parallax } from "react-parallax";
 import "./Home.css";
+import bg from './bg.gif'
 
 const Home = () => {
 
-    const image1 = "https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80";
+    // const image1 = "https://images.unsplash.com/photo-1547082299-de196ea013d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80";
 
     return (
         <div>
             <div className='home-wrapper'>
-                <Parallax bgImage={image1} strength={500}>
+                <Parallax bgImage={bg} strength={500}>
                     <div className='home-fore'>
                         <div className='home-title'>
-                            W-Accinge
+                            We-Accinge
                         </div>
                         <center>
                             <div className='home-box'>

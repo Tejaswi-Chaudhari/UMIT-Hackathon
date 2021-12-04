@@ -1,6 +1,4 @@
 import React from 'react'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
 import { Parallax } from "react-parallax";
 import "./Home.css";
@@ -15,13 +13,13 @@ const Home = () => {
                 <Parallax bgImage={image1} strength={500}>
                     <div className='home-fore'>
                         <div className='home-title'>
-                            Arcturus
+                            W-Accinge
                         </div>
                         <center>
                             <div className='home-box'>
                                 <div className='home-countdown'>
                                     <center>
-                                        <iframe src="https://free.timeanddate.com/countdown/i837fkqv/cf100/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss1/cacfff/cpcfff/pct/tcfff/fs400/szw448/szh189/iso2022-01-25T00:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
+                                        <iframe src="https://free.timeanddate.com/countdown/i83i9ij1/cf100/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs275/szw448/szh189/iso2022-01-25T00:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
                                     </center>
                                 </div>
                                 <div className='home-nav'>

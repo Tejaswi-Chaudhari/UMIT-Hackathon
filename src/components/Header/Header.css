@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300'); 
-.main .me-auto .link {
-    margin-right: 20px;
+.link {
+    margin-left: 38px;
     color: #ffffff !important;
 }
 
+.me-auto{
+    margin-left: 30em;
+}
+
 .link:hover {
-    color: #d80000 !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid rgba(255, 105, 180, 0.973);
+
 }
 .main {
     background-color: #00000054; 

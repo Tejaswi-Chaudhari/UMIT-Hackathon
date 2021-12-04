@@ -6,7 +6,8 @@ import MyAccordion from './MyAccordion';
 const FAQ = () => {
    return (
         <div>
-            <h1>This is FAQs</h1>
+            <h1>This is FAQs    
+            </h1>
         </div>
     )
 }

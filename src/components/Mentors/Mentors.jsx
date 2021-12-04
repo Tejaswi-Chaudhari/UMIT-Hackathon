@@ -1,13 +1,6 @@
 import React from 'react'
 
 const Mentors = () => {
-<<<<<<< HEAD
-    return (
-        <div class="container-fluid">
-			<h2>MENTORS</h2>  				
-		</div>  
-    )
-=======
   return (
     <>
       <div>
@@ -36,7 +29,6 @@ const Mentors = () => {
       </div>
     </>
   )
->>>>>>> 954a284a329fb7cda4d655ebb4d3cfdbfe31c5a5
 }
 
 export default Mentors

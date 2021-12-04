@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React,{useState} from 'react';
 import FAQ from './FAQ';
 import "./FAQs.css";
@@ -37,25 +36,3 @@ const toggleFAQ=index=>{
     )
 }
 export default App;
-=======
-// import React, {useState} from 'react';
-// import {questions} from './api';
-// import './FAQs.css';
-// import MyAccordion from './MyAccordion';
-
-const FAQ=() =>{
-    // const [faqs, setfaqs] = useState(questions);
-
-   return (
-        <>
-            {/* {
-                faqs.map((curElem)=> {
-                    const {id}=curElem;
-                    return <MyAccordion key={id} {...curElem}/>
-                })
-             } */}
-        </>
-    )
-}
-export default FAQ;
->>>>>>> 954a284a329fb7cda4d655ebb4d3cfdbfe31c5a5

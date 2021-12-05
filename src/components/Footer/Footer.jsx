@@ -7,7 +7,7 @@ import { faDiscord, faInstagram } from '@fortawesome/free-brands-svg-icons'
 const Footer = () => {
 
   return (
-    <div className='footer'>
+    <div className='footer' id="footer">
       <hr></hr>
       <Container className='footer-container'>
         <Row>

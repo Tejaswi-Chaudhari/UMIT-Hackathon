@@ -3,6 +3,7 @@ import React from 'react'
 const Mentors = () => {
   return (
     <>
+    <div id="mentors">
       <div>
         <h1>Mentors</h1>
       </div>
@@ -26,6 +27,7 @@ const Mentors = () => {
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
         </button>
+      </div>
       </div>
     </>
   )

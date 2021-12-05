@@ -28,7 +28,7 @@ const toggleFAQ=index=>{
     }))
 }
     return (
-       <div className="faqs">
+       <div id="faq-comp" className="faqs" >
             {faqs.map((faq,i)=>(
                 <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ}/>
             ))}

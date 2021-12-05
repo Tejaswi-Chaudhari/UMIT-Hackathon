@@ -5,7 +5,7 @@ const Judges = () => {
     return (
         <>
 
-            <div>
+            <div id="judges">
               
                 <div class="container py-3">
               

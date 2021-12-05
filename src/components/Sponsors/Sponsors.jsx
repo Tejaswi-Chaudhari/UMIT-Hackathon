@@ -4,6 +4,7 @@ import sp4 from './sp4.jpg'
 
 const Sponsors = () => {
     return (
+    <div id="sponsors">
       <Container align="center">
   <Row>
     <Col lg={3}>
@@ -35,7 +36,7 @@ const Sponsors = () => {
   </Row>
 
 </Container>
-
+</div>
     )
 }
 

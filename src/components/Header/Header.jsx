@@ -11,14 +11,16 @@ const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="me-auto">
-                <Nav.Link className="link" href="/about">About</Nav.Link>
-                <Nav.Link className="link" href="./Timeline">Timeline</Nav.Link>
-                <Nav.Link className="link" href="./Prizes">Prizes</Nav.Link>
-                <Nav.Link className="link" href="./Sponsors">Sponsors</Nav.Link>
-                <Nav.Link className="link" href="./Judges">Judges</Nav.Link>
-                <Nav.Link className="link" href="./Teams">Team</Nav.Link>
-                <Nav.Link className="link" href="./Faq">FAQ</Nav.Link>
-                <Nav.Link className="link" href="./Footer">Contact</Nav.Link>
+                <Nav.Link className="link" href="#about-comp">About</Nav.Link>
+                <Nav.Link className="link" href="#timeline">Timeline</Nav.Link>
+                <Nav.Link className="link" href="#prizes">Prizes</Nav.Link>
+                <Nav.Link className="link" href="#judges">Judges</Nav.Link>
+                <Nav.Link className="link" href="#mentors">Mentors</Nav.Link>
+                <Nav.Link className="link" href="#teams">Team</Nav.Link>
+                <Nav.Link className="link" href="#sponsors">Sponsors</Nav.Link>
+                <Nav.Link className="link" href="#community">Community</Nav.Link>
+                <Nav.Link className="link" href="#faq-comp">FAQ</Nav.Link>
+                <Nav.Link className="link" href="#footer">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Container>

@@ -6,7 +6,7 @@ import teams from "./teams.jpg"
 
 const Teams = () => {
     return (
-        <div>
+        <div id="teams">
             <div class="container py-3">
 
                 <div class="row text-center text-black">

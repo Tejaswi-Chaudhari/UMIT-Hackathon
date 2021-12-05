@@ -5,7 +5,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 const Timeline = () => {
     return (
-        <div>
+        <div id="timeline">
             <div class="container py-3">
 
                 <div class="row text-center text-black">

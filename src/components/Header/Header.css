@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300'); 
 
 .main .me-auto .link{
+    padding-left: 20px;
     padding-right: 20px;
     color: #ffffff !important;
 }

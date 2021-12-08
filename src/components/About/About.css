@@ -1,23 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300'); 
-.title {
-    display: inline-block;
-    font-size: 2.9rem;
-    font-weight: 100;
-    padding: 10px 0;
-    margin-bottom: 44px;
-    text-align: center;
-    border-bottom: solid 1px #ccc;
-    border-top: solid 1px #ccc;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    line-height: 1.2;
-    color: #fff;
-    margin-top: 20px;
-    letter-spacing: 0;
+  .text{
+    font-size: large;
   }
-  .title span {
-    font-size: 2.5rem;
+
+  .row{
+    margin-top: 100px;
   }
-  .text {
-    font-family: 'Roboto';
+
+  .about-l-txt{
+    color: #d200a3 ;
+  }
+
+  @media screen and (max-width: 767px){
+    .text{
+      font-size: medium;
+    }
+    .about-btn{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+    }
+    .about-img{
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 300px;
+      height: auto;
+    }
   }

@@ -1,13 +1,10 @@
 import React from 'react'
 import { Carousel } from "react-bootstrap"
 
-import teams from "./teams.jpg"
-
-
 const Teams = () => {
     return (
         <div id="teams">
-            <div class="container py-3">
+            {/* <div class="container py-3">
 
                 <div class="row text-center text-black">
                     <div class="col-lg-8 mx-auto">
@@ -107,7 +104,7 @@ const Teams = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
 
-            </Carousel>
+            </Carousel> */}
 
 
         </div>

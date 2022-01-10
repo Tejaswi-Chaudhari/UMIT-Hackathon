@@ -15,32 +15,32 @@ const Sponsors = () => {
         <hr></hr>
         <h4 class="display-6">Platinum Sponsors</h4>
         <Row>
-          <Col lg={6}>
+          <Col lg={6} sm={12} xs={12}>
             <a href="https://devfolio.co" target="_blank">
-            <Image src={devfolio} />
+            <Image className='sponsor-img' src={devfolio} />
             </a>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} sm={12} xs={12}>
           <a href="https://polygon.technology/" target="_blank">
-            <Image src={Polygon} />
+            <Image className='sponsor-img' src={Polygon} />
             </a>
           </Col>
         </Row>
         <h4 class="display-6">Diamond Sponsors</h4>
         <Row>
-          <Col lg={6}>
+          <Col lg={6} sm={12} xs={12}>
           <a href="https://celo.org" target="_blank">
-            <Image src={Celo} />
+            <Image className='sponsor-img' src={Celo} />
             </a>
           </Col>
-          <Col lg={6}>
+          <Col lg={6} sm={12} xs={12}>
           <a href="https://filecoin.io" target="_blank">
-            <Image src={Filecoin} width="300px"/>
+            <Image className='sponsor-img' src={Filecoin} width="300px"/>
             </a>
           </Col>
         </Row>
         <a href="https://tezos.com" target="_blank">
-            <Image src={Tezos} width="300px"/>
+            <Image className='sponsor-img' src={Tezos}/>
             </a>
         <Row>
 

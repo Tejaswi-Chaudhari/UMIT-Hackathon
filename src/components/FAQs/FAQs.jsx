@@ -5,33 +5,33 @@ import "./FAQs.css";
 function App() {
     const [faqs, setfaqs] = useState([
         {
+            id: 1,
             question: 'How many people should a Team be?',
-            answer: 'A team should be between 2-4 people',
-            open: false
+            answer: 'A team should be between 1-4 people',
         },
         {
+            id: 2,
             question: 'What are the costs of participating?',
             answer: 'Free of cost',
-            open: false
         },
     ])
 
-    const toggleFAQ = index => {
-        setfaqs(faqs.map((faq, i) => {
-            if (i === index) {
-                faq.open = !faq.open
-            } else {
-                faq.open = false;
-            }
+    const [clicked, setClicked] = useState("0");
 
-            return faq;
-        }))
-    }
+    const handleToggle = (index) => {
+        if (clicked === index) {
+            return setClicked("0");
+        }
+        setClicked(index);
+    };
+
     return (
         <div id="faq-comp" className="faqs" >
-            {faqs.map((faq, i) => (
-                <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ} />
-            ))}
+            <h2 class="display-5">Frequently Asked Questions</h2>
+            {faqs.map((question, index) =>
+                <FAQ key={question.id} index={question.id} onToggle={() => handleToggle(index)}
+                    active={clicked === index} {...question} />
+            )}
         </div>
     )
 }

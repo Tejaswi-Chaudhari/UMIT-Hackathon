@@ -83,10 +83,10 @@ const Timeline = () => {
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    contentStyle={{ background: 'linear-gradient(to right, #000000  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  linear-gradient(to right, #9167f1  0%, #d200a3  51%,  #0061bf 100%)' }}
+                    contentStyle={{ background: 'linear-gradient(to left, #000000  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  linear-gradient(to left, #9167f1  0%, #d200a3  51%,  #0061bf 100%)' }}
                     date="25 Jan - 30 Jan"
-                    iconStyle={{ background: 'linear-gradient(to right, #9167f1  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
+                    iconStyle={{ background: 'linear-gradient(to left, #9167f1  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
                 >
                     <h3>Coding Period</h3>
                     <p>

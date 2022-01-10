@@ -1,10 +1,21 @@
-import React from 'react'
+import { React, useEffect } from 'react'
 import Button from 'react-bootstrap/Button'
 import { Parallax } from "react-parallax";
 import "./Home.css";
 import bg from '../../media/bg.gif'
 
 const Home = () => {
+
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://apply.devfolio.co/v2/sdk.js';
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () => {
+            document.body.removeChild(script);
+        }
+    }, []);
 
     // const image1 = "https://vod-progressive.akamaized.net/exp=1638821656~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F4428%2F15%2F397143942%2F1690449774.mp4~hmac=eeeff42ef113c7e83b09205f4a7ef940aab0cb695fb4247a76bdf2d02939ad13/vimeo-prod-skyfire-std-us/01/4428/15/397143942/1690449774.mp4?filename=Circuit+-+33577.mp4";
 
@@ -26,7 +37,13 @@ const Home = () => {
                                 <div className='home-nav'>
                                     <center>
                                         <Button variant='danger' className='home-nav-discord'>Discord</Button>
-                                        <Button variant='danger' className='home-nav-devfolio'>Devfolio</Button>
+                                        {/* <Button variant='danger' className='home-nav-devfolio'>Devfolio</Button> */}
+                                        <div
+                                            className="apply-button"
+                                            data-hackathon-slug="waccinge"
+                                            data-button-theme="dark-inverted"
+                                            style={{height: "44px", width: "312px"}}
+                                        ></div>
                                     </center>
                                     <br></br>
                                     <br></br>

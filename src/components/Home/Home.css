@@ -16,24 +16,25 @@
     margin-bottom: 100px;
 }
 
-.home-nav-discord, .home-nav-devfolio{
+.home-nav-discord{
     font-size: 21px;
     background-color: #ffffff;
     border: 2px solid #d200a3;
     border-radius: 30px;
-    margin: 10px;
-    padding: 10px 30px;
+    margin-right: 30px;
+    margin-top: -30px;
+    padding: 5px 30px;
     color: #d200a3;
 }
 
-.home-nav-discord:hover, .home-nav-devfolio:hover{
+.home-nav-discord:hover{
     background-color: transparent;
     border: 2px solid #d200a3;
     border-radius: 30px;
     color: #ffffff;
 }
 
-.home-nav-discord:focus, .home-nav-devfolio:focus, .home-nav-discord:focus-visible, .home-nav-devfolio:focus-visible{
+.home-nav-discord:focus, .home-nav-discord:focus-visible{
     background-color: transparent;
     border: 2px solid #d200a3;
     border-radius: 30px;

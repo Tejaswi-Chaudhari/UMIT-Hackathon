@@ -8,7 +8,7 @@ const Judges = () => {
     return (
         <>
             <div id="judges">
-                <div class="container py-3">
+                {/* <div class="container py-3">
                     <div class="row text-center text-black">
                         <div class="col-lg-8 mx-auto">
                             <h1 class="display-5">Judges</h1>
@@ -66,7 +66,7 @@ const Judges = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

@@ -20,7 +20,7 @@ const Timeline = () => {
                 <VerticalTimelineElement
                     contentStyle={{ background: 'linear-gradient(to right, #0061bf 0%, #9167f1  51%, #d200a3  100%)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  linear-gradient(to right, #0061bf 0%, #9167f1  51%, #d200a3  100%)' }}
-                    date="20 Jan"
+                    date="30 Jan"
                     iconStyle={{ background: 'linear-gradient(to right, #0061bf 0%, #9167f1  51%, #d200a3  100%)', color: '#fff' }}
                 >
                     <h3>Inaugration</h3>
@@ -33,11 +33,11 @@ const Timeline = () => {
                 <VerticalTimelineElement
                     contentStyle={{ background: 'linear-gradient(to left, #0061bf 0%, #9167f1  51%, #d200a3  100%)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  linear-gradient(to left, #0061bf 0%, #9167f1  51%, #d200a3  100%)' }}
-                    date="21 Jan"
+                    date="31 Jan"
                     iconStyle={{ background: 'linear-gradient(to left, #0061bf 0%, #9167f1  51%, #d200a3  100%)', color: '#fff' }}
                 >
                     <h3>Tech Talk 1</h3>
-                    <h4>Get Started with Web Dev</h4>
+                    <h4>-- TBD --</h4>
                     <p>
                         --soon be revealed--
                     </p>
@@ -47,25 +47,25 @@ const Timeline = () => {
                 <VerticalTimelineElement
                     contentStyle={{ background: 'linear-gradient(to left, #9167f1  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  linear-gradient(to left, #9167f1  0%, #d200a3  51%,  #0061bf 100%)' }}
-                    date="22 Jan"
+                    date="01 Feb"
                     iconStyle={{ background: 'linear-gradient(to left, #9167f1  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
 
                 >
                     <h3>Tech Talk 2</h3>
-                    <h4>Get Started with App Dec</h4>
+                    <h4>-- TBD --</h4>
                     <p>
                         --soon be revealed--
                     </p>
                 </VerticalTimelineElement>
 
                 <VerticalTimelineElement
-                    date="23 Jan"
+                    date="02 Feb"
                     contentStyle={{ background: 'linear-gradient(to right, #9167f1  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  linear-gradient(to right, #9167f1  0%, #d200a3  51%,  #0061bf 100%)' }}
                     iconStyle={{ background: 'linear-gradient(to right, #9167f1  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
                 >
                     <h3>Tech Talk 3</h3>
-                    <h4>Git/GitHub Basics</h4>
+                    <h4>-- TBD --</h4>
                     <p>
                         --soon be revealed--
                     </p>
@@ -74,10 +74,10 @@ const Timeline = () => {
                 <VerticalTimelineElement
                     contentStyle={{ background: 'linear-gradient(to right, #000000  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  linear-gradient(to right, #9167f1  0%, #d200a3  51%,  #0061bf 100%)' }}
-                    date="24 Jan"
+                    date="03 Feb"
                     iconStyle={{ background: 'linear-gradient(to right, #9167f1  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
                 >
-                    <h3>Proposal Submission</h3>
+                    <h3>Abstract Submission</h3>
                     <p>
                         --soon be integrated--
                     </p>
@@ -85,7 +85,7 @@ const Timeline = () => {
                 <VerticalTimelineElement
                     contentStyle={{ background: 'linear-gradient(to left, #000000  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
                     contentArrowStyle={{ borderRight: '7px solid  linear-gradient(to left, #9167f1  0%, #d200a3  51%,  #0061bf 100%)' }}
-                    date="25 Jan - 30 Jan"
+                    date="3 Feb - 9 Feb"
                     iconStyle={{ background: 'linear-gradient(to left, #9167f1  0%, #d200a3  51%,  #0061bf 100%)', color: '#fff' }}
                 >
                     <h3>Coding Period</h3>

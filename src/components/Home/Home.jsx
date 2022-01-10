@@ -31,13 +31,11 @@ const Home = () => {
                             <div className='home-box'>
                                 <div className='home-countdown'>
                                     <center>
-                                        <iframe src="https://free.timeanddate.com/countdown/i83i9ij1/cf100/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs275/szw448/szh189/iso2022-01-25T00:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
+                                        <iframe src="https://free.timeanddate.com/countdown/i83i9ij1/cf100/cm0/cu4/ct0/cs1/ca2/co0/cr0/ss0/cacfff/cpcfff/pct/tcfff/fs275/szw448/szh189/iso2022-01-30T00:00:00" allowtransparency="true" frameborder="0" width="448" height="189"></iframe>
                                     </center>
                                 </div>
                                 <div className='home-nav'>
                                     <center>
-                                        <Button variant='danger' className='home-nav-discord'>Discord</Button>
-                                        {/* <Button variant='danger' className='home-nav-devfolio'>Devfolio</Button> */}
                                         <div
                                             className="apply-button"
                                             data-hackathon-slug="waccinge"

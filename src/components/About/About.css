@@ -3,22 +3,36 @@
   }
 
   .about-row{
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .about-l-txt{
     color: #d200a3 ;
   }
 
+  .about-btn {background-image: linear-gradient(to right, #0061bf 0%, #9167f1  51%, #d200a3  100%)}
+
+  .about-btn{
+    margin-top: 80px;
+    text-decoration: none;
+    padding: 5px 30px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white; 
+    border: none;           
+    border-radius: 15px;
+  } 
+
+  .about-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+
   @media screen and (max-width: 767px){
     .text{
       font-size: medium;
-    }
-    .about-btn{
-      margin-left: 0 !important;
-      margin-right: 0 !important;
-      margin-top: 10px !important;
-      margin-bottom: 10px !important;
     }
     .about-img{
       margin-top: 50px;
@@ -26,5 +40,8 @@
       margin-right: auto;
       max-width: 300px;
       height: auto;
+    }
+    .about-btn{
+      font-size: small;
     }
   }

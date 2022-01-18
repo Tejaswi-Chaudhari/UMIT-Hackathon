@@ -26,7 +26,7 @@ const Community = () => {
     }
 };
   return(
-    <div id="community">
+    <div id="community" >
       <Carousel responsive={responsive} className="car-1">
         <div><img className="car-img" src={cp6} alt="slide" /></div>
         <div><img className="car-img" src={cp6} alt="slide" /></div>

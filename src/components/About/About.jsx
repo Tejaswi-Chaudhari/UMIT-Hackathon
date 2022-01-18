@@ -1,9 +1,11 @@
 import React from 'react'
+import { useState } from 'react';
 import "./About.css";
 import about from "./about.svg";
 const About = () => {
+    
     return (
-        <div id="about-comp">
+        <div id="about-comp" >
             <section id="about" class="about-section">
                 <div class="container">
                     <header class="text-center">

@@ -52,7 +52,8 @@ body{
   color: #d200a3;
 }
 
-/* blue: #0061bf
+/* 
+blue: #0061bf
 lavender: #9167f1
 purple: #6e3890
 pink: #d200a3 */
@@ -67,7 +68,6 @@ pink: #d200a3 */
    color: white; 
    border: none;           
    border-radius: 15px;
-   display: block;
  }
 
  .btn-grad:hover {

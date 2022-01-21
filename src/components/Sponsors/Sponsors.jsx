@@ -1,6 +1,7 @@
 import React from 'react'
 import { Row, Col, Container, Image } from 'react-bootstrap'
-import devfolio from "../../media/Devfolio_Logo-White.png"
+import Postman from "../../media/postman.svg"
+import Devfolio from "../../media/Devfolio_Logo-White.png"
 import Polygon from "../../media/Polygon_Logo-White.png"
 import Celo from "../../media/Celo_Logo-White.png"
 import Filecoin from "../../media/Filecoin_Logo-White.png"
@@ -16,15 +17,18 @@ const Sponsors = () => {
         <h4 class="display-6">Platinum Sponsors</h4>
         <Row>
           <Col lg={6} sm={12} xs={12}>
-            <a href="https://devfolio.co" target="_blank">
-              <Image className='sponsor-img' src={devfolio} />
+            <a href="https://www.postman.com/" target="_blank">
+              <Image className='sponsor-img' src={Postman} style={{ height: '8em' }} />
             </a>
           </Col>
           <Col lg={6} sm={12} xs={12}>
-            <a href="https://polygon.technology/" target="_blank">
-              <Image className='sponsor-img' src={Polygon} />
+            <a href="https://devfolio.co" target="_blank">
+              <Image className='sponsor-img' src={Devfolio} style={{ paddingTop: '1em' }} />
             </a>
           </Col>
+          <a href="https://polygon.technology/" target="_blank">
+            <Image className='sponsor-img' src={Polygon} />
+          </a>
         </Row>
         <h4 class="display-6">Diamond Sponsors</h4>
         <Row>
@@ -43,7 +47,7 @@ const Sponsors = () => {
           <Image className='sponsor-img' src={Tezos} />
         </a>
         <Row>
-        
+
         </Row>
 
       </Container>

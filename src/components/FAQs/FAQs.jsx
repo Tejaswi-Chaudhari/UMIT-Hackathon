@@ -15,11 +15,6 @@ function App() {
             answer: 'Free of cost',
         },
         {
-            id: 2,
-            question: 'What are the costs of participating?',
-            answer: 'Free of cost',
-        },
-        {
             id: 3,
             question: 'What are the tracks of the Hackathon?',
             answer: 'FinTech, Education, Healthcare, Gaming and innovation, Agriculture, Social Cause',

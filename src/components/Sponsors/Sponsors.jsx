@@ -17,33 +17,33 @@ const Sponsors = () => {
         <Row>
           <Col lg={6} sm={12} xs={12}>
             <a href="https://devfolio.co" target="_blank">
-            <Image className='sponsor-img' src={devfolio} />
+              <Image className='sponsor-img' src={devfolio} />
             </a>
           </Col>
           <Col lg={6} sm={12} xs={12}>
-          <a href="https://polygon.technology/" target="_blank">
-            <Image className='sponsor-img' src={Polygon} />
+            <a href="https://polygon.technology/" target="_blank">
+              <Image className='sponsor-img' src={Polygon} />
             </a>
           </Col>
         </Row>
         <h4 class="display-6">Diamond Sponsors</h4>
         <Row>
           <Col lg={6} sm={12} xs={12}>
-          <a href="https://celo.org" target="_blank">
-            <Image className='sponsor-img' src={Celo} />
+            <a href="https://celo.org" target="_blank">
+              <Image className='sponsor-img' src={Celo} />
             </a>
           </Col>
           <Col lg={6} sm={12} xs={12}>
-          <a href="https://filecoin.io" target="_blank">
-            <Image className='sponsor-img' src={Filecoin} width="300px"/>
+            <a href="https://filecoin.io" target="_blank">
+              <Image className='sponsor-img' src={Filecoin} width="300px" />
             </a>
           </Col>
         </Row>
         <a href="https://tezos.com" target="_blank">
-            <Image className='sponsor-img' src={Tezos}/>
-            </a>
+          <Image className='sponsor-img' src={Tezos} />
+        </a>
         <Row>
-
+        
         </Row>
 
       </Container>

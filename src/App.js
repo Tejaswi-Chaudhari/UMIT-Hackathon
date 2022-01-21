@@ -1,9 +1,10 @@
+import {React, useState} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { About, Community, FAQs, Footer, Header, Home, Judges, Mentors, Prizes, Sponsors, Teams, Timeline } from './components'
 
-function App() {
+function App() { 
   return (
     <div className='App'>
       <Router>

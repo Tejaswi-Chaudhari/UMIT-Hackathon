@@ -1,12 +1,14 @@
 import React from 'react'
+import { useState } from 'react';
 import "./About.css";
 import about from '../../media/about.gif';
 import Image from 'react-bootstrap/Image'
 import Button from 'react-bootstrap/Button'
 
 const About = () => {
+    
     return (
-        <div id="about-comp">
+        <div id="about-comp" >
             <section id="about" class="about-section">
                 <div class="container">
                     <div class="about-row row">

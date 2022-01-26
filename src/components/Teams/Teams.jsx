@@ -95,8 +95,7 @@ const Teams = () => {
                     <h2>Bhumi Sorathia</h2>
                     <h5>Chairperson</h5>
                     <Image className='gdsclead' src={ECELLLG} style={{height:'6em', borderRadius:'10px', alignContent:'center'}}/>
-                    <p style={{paddingTop:'2.5em'}}>Ecell aims to create opportunities, promote innovation and enhance the knowledge sharing among students that encourages them to
- be unique <hr></hr></p>
+                    <p style={{paddingTop:'2.5em'}}>Ecell aims to create opportunities, promote innovation and enhance the knowledge sharing among students that encourages them to be unique<hr></hr></p>
                     </Col>
                 </Row>
 

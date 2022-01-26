@@ -58,12 +58,12 @@ const Sponsors = () => {
         
           <Col>
             <a href="https://www.newtonschool.co/" target="_blank">
-              <Image className='sponsor-img' src={Newton} width="300px" />
+              <Image className='sponsor-img' src={Newton} width="400px" />
             </a>
           </Col>
         
 
-         <Col>
+         <Col style={{paddingTop:"1em"}}>
           <a href="https://tezos.com" target="_blank">
             <Image className='sponsor-img' src={Tezos}  />
           </a>

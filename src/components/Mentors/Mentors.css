@@ -28,12 +28,14 @@ body {
   
   .social-link:hover,
   .social-link:focus {
-    background: #ddd;
+    background: #d200a3;
     text-decoration: none;
-    color: #555;
+    color: #ddd;
   }
   
   .progress {
     height: 10px;
   }
-  
+  h5 {
+      color: #d200a3;
+  }

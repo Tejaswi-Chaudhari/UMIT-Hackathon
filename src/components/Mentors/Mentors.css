@@ -20,22 +20,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #666;
+    color: #ddd;
     border-radius: 50%;
     transition: all 0.3s;
     font-size: 0.9rem;
+    background: #d200a3;
   }
   
   .social-link:hover,
   .social-link:focus {
-    background: #d200a3;
+    background: #ddd;
     text-decoration: none;
-    color: #ddd;
+    color: #555;
   }
   
   .progress {
     height: 10px;
   }
   h5 {
-      color: #d200a3;
+      color: black;
   }
